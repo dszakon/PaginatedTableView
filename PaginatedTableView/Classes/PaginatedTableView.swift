@@ -53,6 +53,13 @@ public class PaginatedTableView: UITableView {
     public var loadMoreViewHeight: CGFloat = 100
     public var heightForHeaderInSection: CGFloat = 0
     public var titleForHeaderInSection = ""
+    public var pullToRefreshBackgroundColor: UIColor = .white {
+        didSet {
+            DispatchQueue.main.async {
+                self.refreshControltableView.backgroundColor = self.pullToRefreshBackgroundColor
+            }
+        }
+    }
     
     public var pullToRefreshTitle: NSAttributedString? = nil {
         didSet {
@@ -79,6 +86,7 @@ public class PaginatedTableView: UITableView {
     lazy var refreshControltableView: UIRefreshControl = {
         let refreshControl = UIRefreshControl()
         refreshControl.attributedTitle = pullToRefreshTitle
+        refreshControl.backgroundColor = self.pullToRefreshBackgroundColor
         refreshControl.addTarget(self, action: #selector(self.handleRefreshtableView(_:)), for: UIControl.Event.valueChanged)
         return refreshControl
     }()
