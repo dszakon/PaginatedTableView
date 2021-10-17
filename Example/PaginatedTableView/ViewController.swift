@@ -23,6 +23,8 @@ class ViewController: UIViewController {
         tableView.paginatedDelegate = self
         tableView.paginatedDataSource = self
         
+        tableView.pullToRefreshBackgroundColor = .green
+        
         // More settings
         tableView.enablePullToRefresh = true
         tableView.pullToRefreshTitle = NSAttributedString(string: "Pull to Refresh")

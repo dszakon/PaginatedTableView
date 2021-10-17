@@ -154,14 +154,20 @@ extension PaginatedTableView {
             self.hasMoreData = hasMore
             self.currentPage += 1
             self.isLoading = false
-            self.refreshControltableView.endRefreshing()
+            DispatchQueue.main.async {
+                self.refreshControltableView.endRefreshing()
+            }
             if self.customReloadDataBlock != nil {
                 self.customReloadDataBlock?()
             } else {
-                self.reloadData()
+                DispatchQueue.main.async {
+                    self.reloadData()
+                }
             }
         }, onError: { _ in
-            self.refreshControltableView.endRefreshing()
+            DispatchQueue.main.async {
+                self.refreshControltableView.endRefreshing()
+            }
             self.isLoading = false
         })
     }

@@ -7,173 +7,188 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		075F74A6EF57380372EC0E819776B5E5 /* PaginatedTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F86E6C3A9E11BC7920A0C1BA417EC04C /* PaginatedTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0AD6C1D8E267065912ED482DDD54B546 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		2CBCE6450439DEF601F830E791C0075C /* Pods-PaginatedTableView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B294A28B595FEB8332BF41ABE793DAC /* Pods-PaginatedTableView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		388E626CC9133901172788EB55E1F147 /* Pods-PaginatedTableView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 240B1AA7502758F87B16D734D15197F2 /* Pods-PaginatedTableView_Tests-dummy.m */; };
-		4EE5AB215E95FE4B50250A8C4E20725F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		93461D64A51DF4495A9E1BEBD6445A97 /* Pods-PaginatedTableView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0147C5D4D361B70A76AED59BF1DEFD90 /* Pods-PaginatedTableView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF7C78974DCB814FABFBB9C8C489F1A0 /* PaginatedTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7344921D55902E27B6C2965C7E666CE /* PaginatedTableView.swift */; };
-		B6BAA0DA361515495E3F64CC1ADB7D4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		C4DC79B55AF0F20D00A76131DF8B65FB /* Pods-PaginatedTableView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AED9F31DE40EDAB1A1B1627282FAC1 /* Pods-PaginatedTableView_Example-dummy.m */; };
-		DAA953EB63821A0DC7FAC8873092EA8F /* PaginatedTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8CD2E52C75FFCF8DA969281306D49E /* PaginatedTableView-dummy.m */; };
+		225895E8F09F14E5FF3BD3FCA1A86561 /* PaginatedTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B915A762C53FE517CD0FBD0C175867 /* PaginatedTableView.swift */; };
+		2E9428C79EAC4DB5B5B1898F5EC52493 /* Pods-PaginatedTableView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6E455FABE283F748E60E0C67D9C16C6 /* Pods-PaginatedTableView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		454A047B833B96E97A1D8ABE3FA0057D /* Pods-PaginatedTableView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD1499F6D95791BAF51D80E1A9D3AB40 /* Pods-PaginatedTableView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BC58BDB654BA9A5C11632B58C653F39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		5BAC763911A1F206B121D79D8F72F7AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		7B45A74D047902EECBC037BF167510ED /* Pods-PaginatedTableView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5078961904F0F950D125F86851F436 /* Pods-PaginatedTableView_Tests-dummy.m */; };
+		9E6DF54962E0E1911B248943D3B4D223 /* Pods-PaginatedTableView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5A95E0A08845E76D4F4F27E732D5E3 /* Pods-PaginatedTableView_Example-dummy.m */; };
+		AED73D162A6802A266675C74880AD1E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		BDA0D04716588E6CC32FA1EB78BD1B98 /* PaginatedTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 679E416C553FE46D8F72BDB835E52C3E /* PaginatedTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C23E6298F04BE8A039A4F3DC2B175DF3 /* PaginatedTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6FB8C424C2000F183C3154E2452CD3 /* PaginatedTableView-dummy.m */; };
+		D78C2EC8C3C4376AA82778E28A63A9DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CA3CD74E542776791D3619430BCD1BAC /* PBXContainerItemProxy */ = {
+		38146C07EC4B48DAAB293ABE14346C9E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C9C2402C5F72F2444EB7660F3314A74E;
+			remoteGlobalIDString = A489F4A86CC2E5F86E502CB35C2ECDCE;
 			remoteInfo = PaginatedTableView;
 		};
-		F05C84DCFF66392B8EC669B02977F37B /* PBXContainerItemProxy */ = {
+		D1B4DFEB04626A0E494109786CE82EB2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 84B2D834A4A3A07E07292FCECD4906CF;
+			remoteGlobalIDString = 57F16A7BE88C4D2CC5C044ADC38B7E24;
 			remoteInfo = "Pods-PaginatedTableView_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0147C5D4D361B70A76AED59BF1DEFD90 /* Pods-PaginatedTableView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PaginatedTableView_Example-umbrella.h"; sourceTree = "<group>"; };
-		0F9C21E0096AEED238D0310D28E510C1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		1A467E47DEDB873D440F50D4F473AF80 /* Pods-PaginatedTableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaginatedTableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		240B1AA7502758F87B16D734D15197F2 /* Pods-PaginatedTableView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PaginatedTableView_Tests-dummy.m"; sourceTree = "<group>"; };
-		2DCE5007A1B9078F391B185E0B47268E /* Pods-PaginatedTableView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PaginatedTableView_Tests-Info.plist"; sourceTree = "<group>"; };
-		31AED9F31DE40EDAB1A1B1627282FAC1 /* Pods-PaginatedTableView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PaginatedTableView_Example-dummy.m"; sourceTree = "<group>"; };
-		377A3A5F6B4883D9197FAC65ADEBCF85 /* PaginatedTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PaginatedTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B294A28B595FEB8332BF41ABE793DAC /* Pods-PaginatedTableView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PaginatedTableView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		48956F6B5AF50553B5C3A8097B0E1EB9 /* Pods-PaginatedTableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaginatedTableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4C8CD2E52C75FFCF8DA969281306D49E /* PaginatedTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PaginatedTableView-dummy.m"; sourceTree = "<group>"; };
-		56254D392E26AFB945048D52490019CF /* Pods-PaginatedTableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaginatedTableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		582CDF3AC880D6F097476EED07C1405C /* Pods-PaginatedTableView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PaginatedTableView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5A401F64799450D67318486205A94F2E /* Pods-PaginatedTableView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PaginatedTableView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		6155B0504AE2695AD2AA4F8340F84D6D /* PaginatedTableView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PaginatedTableView-Info.plist"; sourceTree = "<group>"; };
-		71D60C2CC20B65DE2C00493EAE75B4DF /* Pods-PaginatedTableView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PaginatedTableView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		72DFFDA3E0CD7FCC03797422840D4138 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		7FE10ABD18FE5C824FB3F76856D67C8C /* Pods-PaginatedTableView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PaginatedTableView_Example-Info.plist"; sourceTree = "<group>"; };
-		83106C93B79954FD8816E65669A08E4F /* Pods-PaginatedTableView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PaginatedTableView_Example.modulemap"; sourceTree = "<group>"; };
-		869D690A65FD95C85469E430832F4EFE /* PaginatedTableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PaginatedTableView.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A7715689F96BF0582997FAB2A35DF660 /* Pods-PaginatedTableView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PaginatedTableView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B6FD211F2F194ABEE704874FC88225C9 /* PaginatedTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PaginatedTableView.modulemap; sourceTree = "<group>"; };
-		BDC8359184C9D5CFDCC7F7D9BCA560CA /* Pods-PaginatedTableView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PaginatedTableView_Tests.modulemap"; sourceTree = "<group>"; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D307A22923E81EEA1F31F58A5F292FD4 /* Pods_PaginatedTableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaginatedTableView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DBB93773D0C9D1252F25E1FF53E23A23 /* Pods_PaginatedTableView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaginatedTableView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E175C18CF7873224252907254A3160B8 /* Pods-PaginatedTableView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PaginatedTableView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E381D70DDCBD6F5A17AAD07CBE97A323 /* PaginatedTableView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PaginatedTableView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F7344921D55902E27B6C2965C7E666CE /* PaginatedTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaginatedTableView.swift; path = PaginatedTableView/Classes/PaginatedTableView.swift; sourceTree = "<group>"; };
-		F735D9C90016E63A3649A1C34DDF0722 /* Pods-PaginatedTableView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaginatedTableView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F86E6C3A9E11BC7920A0C1BA417EC04C /* PaginatedTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PaginatedTableView-umbrella.h"; sourceTree = "<group>"; };
-		FF024434B69A73A152F834DF53BDE3FD /* PaginatedTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PaginatedTableView-prefix.pch"; sourceTree = "<group>"; };
+		1241D107A3D0D31FA5731A941378474E /* PaginatedTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PaginatedTableView.modulemap; sourceTree = "<group>"; };
+		2E38328C1C4C2BAE2F61116C744DA27C /* Pods-PaginatedTableView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PaginatedTableView_Example-Info.plist"; sourceTree = "<group>"; };
+		31B915A762C53FE517CD0FBD0C175867 /* PaginatedTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaginatedTableView.swift; path = PaginatedTableView/Classes/PaginatedTableView.swift; sourceTree = "<group>"; };
+		326A74A8388A4C3A4DCA896672CD4ACC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		33F96A794E13B90FE791F20560AD74C8 /* PaginatedTableView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PaginatedTableView-Info.plist"; sourceTree = "<group>"; };
+		3A327A8D831DE0FF6A6470B074C282DC /* Pods-PaginatedTableView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PaginatedTableView_Tests-Info.plist"; sourceTree = "<group>"; };
+		42E39A4F8834FD6DB421A10F1116AA46 /* PaginatedTableView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PaginatedTableView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4BC88598EC93280BE76AF226CDC03A14 /* PaginatedTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PaginatedTableView-prefix.pch"; sourceTree = "<group>"; };
+		4CD376DF17E6BBDF22798F1A78C7FA79 /* Pods-PaginatedTableView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaginatedTableView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4FF39424E575E3F5533D1487B77FB766 /* Pods-PaginatedTableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaginatedTableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		588D6FCB7FCE7CF5D4AF87C20E087AFF /* PaginatedTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PaginatedTableView.release.xcconfig; sourceTree = "<group>"; };
+		679E416C553FE46D8F72BDB835E52C3E /* PaginatedTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PaginatedTableView-umbrella.h"; sourceTree = "<group>"; };
+		7A25A37A0C94420CB6983096ACA6747D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8207B41B59343D9611048CE96E7D5FED /* PaginatedTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PaginatedTableView.framework; path = PaginatedTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86E5BEBB1ECB9BAB57F395C62FF54C32 /* Pods-PaginatedTableView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PaginatedTableView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8E5078961904F0F950D125F86851F436 /* Pods-PaginatedTableView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PaginatedTableView_Tests-dummy.m"; sourceTree = "<group>"; };
+		92632DD80B3A975445469E7F8C1DAB21 /* Pods-PaginatedTableView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PaginatedTableView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		978F7FE9415441AF1A187EE4368AF1C7 /* PaginatedTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PaginatedTableView.debug.xcconfig; sourceTree = "<group>"; };
+		9B3DCD8DC2B88BC8053CB3118E074DCA /* Pods_PaginatedTableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PaginatedTableView_Tests.framework; path = "Pods-PaginatedTableView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6E455FABE283F748E60E0C67D9C16C6 /* Pods-PaginatedTableView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PaginatedTableView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		ABAEC5FC64CBC3B28D43A35949E2CE5E /* Pods-PaginatedTableView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PaginatedTableView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B5D071319C9ADE1CC77C0C1CFB81482B /* Pods-PaginatedTableView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PaginatedTableView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C2F0AD603E7E1C7A6493CEDBA0C495AB /* Pods-PaginatedTableView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PaginatedTableView_Example.modulemap"; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D47E15045365CBFFB4ECD7E72FE5E2E9 /* Pods-PaginatedTableView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PaginatedTableView_Tests.modulemap"; sourceTree = "<group>"; };
+		DD1499F6D95791BAF51D80E1A9D3AB40 /* Pods-PaginatedTableView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PaginatedTableView_Example-umbrella.h"; sourceTree = "<group>"; };
+		DE6FB8C424C2000F183C3154E2452CD3 /* PaginatedTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PaginatedTableView-dummy.m"; sourceTree = "<group>"; };
+		E7ED8E37B7930405D15AD3326F9A4137 /* Pods-PaginatedTableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaginatedTableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F89C5181F18924283F4848523C344B22 /* Pods-PaginatedTableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaginatedTableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FAB2A634DCE024947AE9F1B0C47FAD38 /* Pods-PaginatedTableView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PaginatedTableView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FBE1032A618008E8D87C99A32C830B4F /* Pods_PaginatedTableView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PaginatedTableView_Example.framework; path = "Pods-PaginatedTableView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF5A95E0A08845E76D4F4F27E732D5E3 /* Pods-PaginatedTableView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PaginatedTableView_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		19A64780AD24E1C0589377C62BC7AFEC /* Frameworks */ = {
+		18EB80F6E7383389DDED7AB32FF2F0C9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AD6C1D8E267065912ED482DDD54B546 /* Foundation.framework in Frameworks */,
+				4BC58BDB654BA9A5C11632B58C653F39 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		354414896A9DB75F6C92A8E6A55C9099 /* Frameworks */ = {
+		61F4C5C065E5C899799BE3F3B7F8096F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EE5AB215E95FE4B50250A8C4E20725F /* Foundation.framework in Frameworks */,
+				D78C2EC8C3C4376AA82778E28A63A9DF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35AF06C1E0E636BFB3FA00BF52909D11 /* Frameworks */ = {
+		9822613A87FC1A7904C2F33E3092DB3A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6BAA0DA361515495E3F64CC1ADB7D4D /* Foundation.framework in Frameworks */,
+				AED73D162A6802A266675C74880AD1E0 /* Foundation.framework in Frameworks */,
+				5BAC763911A1F206B121D79D8F72F7AF /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2B1F11E651A5A11855CE8B1C422A1A9E /* Targets Support Files */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B154064932A4FC01E1908E867716C350 /* Pods-PaginatedTableView_Example */,
-				EBF688BA03235D9FCA290805BEEF0190 /* Pods-PaginatedTableView_Tests */,
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
 			);
-			name = "Targets Support Files";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4D85CD5CF9A586C95679977552250081 /* Support Files */ = {
+		2277C7A78E21AF2437781A7F1A3C3E22 /* Pods-PaginatedTableView_Example */ = {
 			isa = PBXGroup;
 			children = (
-				B6FD211F2F194ABEE704874FC88225C9 /* PaginatedTableView.modulemap */,
-				869D690A65FD95C85469E430832F4EFE /* PaginatedTableView.xcconfig */,
-				4C8CD2E52C75FFCF8DA969281306D49E /* PaginatedTableView-dummy.m */,
-				6155B0504AE2695AD2AA4F8340F84D6D /* PaginatedTableView-Info.plist */,
-				FF024434B69A73A152F834DF53BDE3FD /* PaginatedTableView-prefix.pch */,
-				F86E6C3A9E11BC7920A0C1BA417EC04C /* PaginatedTableView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PaginatedTableView";
-			sourceTree = "<group>";
-		};
-		68A436200D3DBB64259974B9D6BC0733 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				377A3A5F6B4883D9197FAC65ADEBCF85 /* PaginatedTableView.framework */,
-				DBB93773D0C9D1252F25E1FF53E23A23 /* Pods_PaginatedTableView_Example.framework */,
-				D307A22923E81EEA1F31F58A5F292FD4 /* Pods_PaginatedTableView_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		B08B52D6DE3C6BB77B3317B7B59C966B /* PaginatedTableView */ = {
-			isa = PBXGroup;
-			children = (
-				F7344921D55902E27B6C2965C7E666CE /* PaginatedTableView.swift */,
-				B5319A3A286B576360CBAAFB01408DFE /* Pod */,
-				4D85CD5CF9A586C95679977552250081 /* Support Files */,
-			);
-			name = PaginatedTableView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		B154064932A4FC01E1908E867716C350 /* Pods-PaginatedTableView_Example */ = {
-			isa = PBXGroup;
-			children = (
-				83106C93B79954FD8816E65669A08E4F /* Pods-PaginatedTableView_Example.modulemap */,
-				E175C18CF7873224252907254A3160B8 /* Pods-PaginatedTableView_Example-acknowledgements.markdown */,
-				71D60C2CC20B65DE2C00493EAE75B4DF /* Pods-PaginatedTableView_Example-acknowledgements.plist */,
-				31AED9F31DE40EDAB1A1B1627282FAC1 /* Pods-PaginatedTableView_Example-dummy.m */,
-				5A401F64799450D67318486205A94F2E /* Pods-PaginatedTableView_Example-frameworks.sh */,
-				7FE10ABD18FE5C824FB3F76856D67C8C /* Pods-PaginatedTableView_Example-Info.plist */,
-				0147C5D4D361B70A76AED59BF1DEFD90 /* Pods-PaginatedTableView_Example-umbrella.h */,
-				56254D392E26AFB945048D52490019CF /* Pods-PaginatedTableView_Example.debug.xcconfig */,
-				F735D9C90016E63A3649A1C34DDF0722 /* Pods-PaginatedTableView_Example.release.xcconfig */,
+				C2F0AD603E7E1C7A6493CEDBA0C495AB /* Pods-PaginatedTableView_Example.modulemap */,
+				B5D071319C9ADE1CC77C0C1CFB81482B /* Pods-PaginatedTableView_Example-acknowledgements.markdown */,
+				ABAEC5FC64CBC3B28D43A35949E2CE5E /* Pods-PaginatedTableView_Example-acknowledgements.plist */,
+				FF5A95E0A08845E76D4F4F27E732D5E3 /* Pods-PaginatedTableView_Example-dummy.m */,
+				92632DD80B3A975445469E7F8C1DAB21 /* Pods-PaginatedTableView_Example-frameworks.sh */,
+				2E38328C1C4C2BAE2F61116C744DA27C /* Pods-PaginatedTableView_Example-Info.plist */,
+				DD1499F6D95791BAF51D80E1A9D3AB40 /* Pods-PaginatedTableView_Example-umbrella.h */,
+				F89C5181F18924283F4848523C344B22 /* Pods-PaginatedTableView_Example.debug.xcconfig */,
+				4CD376DF17E6BBDF22798F1A78C7FA79 /* Pods-PaginatedTableView_Example.release.xcconfig */,
 			);
 			name = "Pods-PaginatedTableView_Example";
 			path = "Target Support Files/Pods-PaginatedTableView_Example";
 			sourceTree = "<group>";
 		};
-		B5319A3A286B576360CBAAFB01408DFE /* Pod */ = {
+		2B1F11E651A5A11855CE8B1C422A1A9E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0F9C21E0096AEED238D0310D28E510C1 /* LICENSE */,
-				E381D70DDCBD6F5A17AAD07CBE97A323 /* PaginatedTableView.podspec */,
-				72DFFDA3E0CD7FCC03797422840D4138 /* README.md */,
+				2277C7A78E21AF2437781A7F1A3C3E22 /* Pods-PaginatedTableView_Example */,
+				3877919E93B52A5E12C5F394D9CA0914 /* Pods-PaginatedTableView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2E8E4AB9A18DAFD7BC7EF101A17FCC31 /* PaginatedTableView */ = {
+			isa = PBXGroup;
+			children = (
+				31B915A762C53FE517CD0FBD0C175867 /* PaginatedTableView.swift */,
+				6D1808DB5C213875011F9A2723030A60 /* Pod */,
+				F4B344321771996C9BBEB76C75447307 /* Support Files */,
+			);
+			name = PaginatedTableView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3877919E93B52A5E12C5F394D9CA0914 /* Pods-PaginatedTableView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D47E15045365CBFFB4ECD7E72FE5E2E9 /* Pods-PaginatedTableView_Tests.modulemap */,
+				FAB2A634DCE024947AE9F1B0C47FAD38 /* Pods-PaginatedTableView_Tests-acknowledgements.markdown */,
+				86E5BEBB1ECB9BAB57F395C62FF54C32 /* Pods-PaginatedTableView_Tests-acknowledgements.plist */,
+				8E5078961904F0F950D125F86851F436 /* Pods-PaginatedTableView_Tests-dummy.m */,
+				3A327A8D831DE0FF6A6470B074C282DC /* Pods-PaginatedTableView_Tests-Info.plist */,
+				A6E455FABE283F748E60E0C67D9C16C6 /* Pods-PaginatedTableView_Tests-umbrella.h */,
+				4FF39424E575E3F5533D1487B77FB766 /* Pods-PaginatedTableView_Tests.debug.xcconfig */,
+				E7ED8E37B7930405D15AD3326F9A4137 /* Pods-PaginatedTableView_Tests.release.xcconfig */,
+			);
+			name = "Pods-PaginatedTableView_Tests";
+			path = "Target Support Files/Pods-PaginatedTableView_Tests";
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		68A436200D3DBB64259974B9D6BC0733 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8207B41B59343D9611048CE96E7D5FED /* PaginatedTableView.framework */,
+				FBE1032A618008E8D87C99A32C830B4F /* Pods_PaginatedTableView_Example.framework */,
+				9B3DCD8DC2B88BC8053CB3118E074DCA /* Pods_PaginatedTableView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D1808DB5C213875011F9A2723030A60 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7A25A37A0C94420CB6983096ACA6747D /* LICENSE */,
+				42E39A4F8834FD6DB421A10F1116AA46 /* PaginatedTableView.podspec */,
+				326A74A8388A4C3A4DCA896672CD4ACC /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -181,7 +196,7 @@
 		B6F967FEE8E4717F8BE4E6A1B1A46974 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B08B52D6DE3C6BB77B3317B7B59C966B /* PaginatedTableView */,
+				2E8E4AB9A18DAFD7BC7EF101A17FCC31 /* PaginatedTableView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -191,112 +206,103 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				B6F967FEE8E4717F8BE4E6A1B1A46974 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				68A436200D3DBB64259974B9D6BC0733 /* Products */,
 				2B1F11E651A5A11855CE8B1C422A1A9E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		F4B344321771996C9BBEB76C75447307 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+				1241D107A3D0D31FA5731A941378474E /* PaginatedTableView.modulemap */,
+				DE6FB8C424C2000F183C3154E2452CD3 /* PaginatedTableView-dummy.m */,
+				33F96A794E13B90FE791F20560AD74C8 /* PaginatedTableView-Info.plist */,
+				4BC88598EC93280BE76AF226CDC03A14 /* PaginatedTableView-prefix.pch */,
+				679E416C553FE46D8F72BDB835E52C3E /* PaginatedTableView-umbrella.h */,
+				978F7FE9415441AF1A187EE4368AF1C7 /* PaginatedTableView.debug.xcconfig */,
+				588D6FCB7FCE7CF5D4AF87C20E087AFF /* PaginatedTableView.release.xcconfig */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		EBF688BA03235D9FCA290805BEEF0190 /* Pods-PaginatedTableView_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				BDC8359184C9D5CFDCC7F7D9BCA560CA /* Pods-PaginatedTableView_Tests.modulemap */,
-				582CDF3AC880D6F097476EED07C1405C /* Pods-PaginatedTableView_Tests-acknowledgements.markdown */,
-				A7715689F96BF0582997FAB2A35DF660 /* Pods-PaginatedTableView_Tests-acknowledgements.plist */,
-				240B1AA7502758F87B16D734D15197F2 /* Pods-PaginatedTableView_Tests-dummy.m */,
-				2DCE5007A1B9078F391B185E0B47268E /* Pods-PaginatedTableView_Tests-Info.plist */,
-				3B294A28B595FEB8332BF41ABE793DAC /* Pods-PaginatedTableView_Tests-umbrella.h */,
-				48956F6B5AF50553B5C3A8097B0E1EB9 /* Pods-PaginatedTableView_Tests.debug.xcconfig */,
-				1A467E47DEDB873D440F50D4F473AF80 /* Pods-PaginatedTableView_Tests.release.xcconfig */,
-			);
-			name = "Pods-PaginatedTableView_Tests";
-			path = "Target Support Files/Pods-PaginatedTableView_Tests";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PaginatedTableView";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		342FB240C6FBF5C103A023FB9C90F8BE /* Headers */ = {
+		5878DE8A2156734426932AA739BDFA09 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93461D64A51DF4495A9E1BEBD6445A97 /* Pods-PaginatedTableView_Example-umbrella.h in Headers */,
+				BDA0D04716588E6CC32FA1EB78BD1B98 /* PaginatedTableView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3655203A1C566681777C8BFCB4F8AD2 /* Headers */ = {
+		8E9BF0B947BDF5C5199100F771A575F5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				075F74A6EF57380372EC0E819776B5E5 /* PaginatedTableView-umbrella.h in Headers */,
+				2E9428C79EAC4DB5B5B1898F5EC52493 /* Pods-PaginatedTableView_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9EC4A1F880988F3BD53615986CD1C19 /* Headers */ = {
+		F0FA3E9962E71D9402929680B24A410E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CBCE6450439DEF601F830E791C0075C /* Pods-PaginatedTableView_Tests-umbrella.h in Headers */,
+				454A047B833B96E97A1D8ABE3FA0057D /* Pods-PaginatedTableView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4A9FF64FD343F81DCC51C0ED4ADCFD1E /* Pods-PaginatedTableView_Tests */ = {
+		34537EAEC8ED62EEE2009AEB955708F3 /* Pods-PaginatedTableView_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0194DE7FC2A24ED2296FE80B503D8953 /* Build configuration list for PBXNativeTarget "Pods-PaginatedTableView_Tests" */;
+			buildConfigurationList = 0FAE402B734C6DA4C05C699595B4FC04 /* Build configuration list for PBXNativeTarget "Pods-PaginatedTableView_Tests" */;
 			buildPhases = (
-				E9EC4A1F880988F3BD53615986CD1C19 /* Headers */,
-				A6A5D436243015D20BEB89420B11DCF7 /* Sources */,
-				354414896A9DB75F6C92A8E6A55C9099 /* Frameworks */,
-				9A841F768CC7705E98444C187DEB16CF /* Resources */,
+				8E9BF0B947BDF5C5199100F771A575F5 /* Headers */,
+				E930D0675F318D46FBF72A31C2CB308B /* Sources */,
+				61F4C5C065E5C899799BE3F3B7F8096F /* Frameworks */,
+				39727110E0DC99552C0159A3A9082101 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3F0BBA67AA55D125FB875A077DF82B6F /* PBXTargetDependency */,
+				012CB286ECABE1BF897706115C8FD6A6 /* PBXTargetDependency */,
 			);
 			name = "Pods-PaginatedTableView_Tests";
 			productName = "Pods-PaginatedTableView_Tests";
-			productReference = D307A22923E81EEA1F31F58A5F292FD4 /* Pods_PaginatedTableView_Tests.framework */;
+			productReference = 9B3DCD8DC2B88BC8053CB3118E074DCA /* Pods_PaginatedTableView_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		84B2D834A4A3A07E07292FCECD4906CF /* Pods-PaginatedTableView_Example */ = {
+		57F16A7BE88C4D2CC5C044ADC38B7E24 /* Pods-PaginatedTableView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D4CDFF4EF15877174068EA154B0C5E29 /* Build configuration list for PBXNativeTarget "Pods-PaginatedTableView_Example" */;
+			buildConfigurationList = 97F35069465013F9F03F18972EF97C85 /* Build configuration list for PBXNativeTarget "Pods-PaginatedTableView_Example" */;
 			buildPhases = (
-				342FB240C6FBF5C103A023FB9C90F8BE /* Headers */,
-				A75CF99BA91DEBBCAF44446100C3D479 /* Sources */,
-				19A64780AD24E1C0589377C62BC7AFEC /* Frameworks */,
-				CBB5ED43B7B46BBB102BF412AAD2446A /* Resources */,
+				F0FA3E9962E71D9402929680B24A410E /* Headers */,
+				3A66AFD333C0EB69C177CADFDA9F9CA0 /* Sources */,
+				18EB80F6E7383389DDED7AB32FF2F0C9 /* Frameworks */,
+				87E629CAC73BB43DEE788E2EB42E3A8B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1E7B7CC1DC3694FEB8CB2E430C917ADC /* PBXTargetDependency */,
+				9A0387AC6BACBD7968D3094A7E3C4646 /* PBXTargetDependency */,
 			);
 			name = "Pods-PaginatedTableView_Example";
 			productName = "Pods-PaginatedTableView_Example";
-			productReference = DBB93773D0C9D1252F25E1FF53E23A23 /* Pods_PaginatedTableView_Example.framework */;
+			productReference = FBE1032A618008E8D87C99A32C830B4F /* Pods_PaginatedTableView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C9C2402C5F72F2444EB7660F3314A74E /* PaginatedTableView */ = {
+		A489F4A86CC2E5F86E502CB35C2ECDCE /* PaginatedTableView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 07B5AA3975CB819CF8B2BA5A4D9FBAE2 /* Build configuration list for PBXNativeTarget "PaginatedTableView" */;
+			buildConfigurationList = 26F068BC923E9245106C26617B682310 /* Build configuration list for PBXNativeTarget "PaginatedTableView" */;
 			buildPhases = (
-				C3655203A1C566681777C8BFCB4F8AD2 /* Headers */,
-				7DD9DE383F248CF04C5A66DCBFA99A6F /* Sources */,
-				35AF06C1E0E636BFB3FA00BF52909D11 /* Frameworks */,
-				C9A52427BDAF28485E9B595EDD9FA91F /* Resources */,
+				5878DE8A2156734426932AA739BDFA09 /* Headers */,
+				0948095E6E416F94D862EFE607D31FA6 /* Sources */,
+				9822613A87FC1A7904C2F33E3092DB3A /* Frameworks */,
+				F0FC12F2C190C557F92A7D40291C3018 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -304,7 +310,7 @@
 			);
 			name = PaginatedTableView;
 			productName = PaginatedTableView;
-			productReference = 377A3A5F6B4883D9197FAC65ADEBCF85 /* PaginatedTableView.framework */;
+			productReference = 8207B41B59343D9611048CE96E7D5FED /* PaginatedTableView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -313,45 +319,45 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 68A436200D3DBB64259974B9D6BC0733 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C9C2402C5F72F2444EB7660F3314A74E /* PaginatedTableView */,
-				84B2D834A4A3A07E07292FCECD4906CF /* Pods-PaginatedTableView_Example */,
-				4A9FF64FD343F81DCC51C0ED4ADCFD1E /* Pods-PaginatedTableView_Tests */,
+				A489F4A86CC2E5F86E502CB35C2ECDCE /* PaginatedTableView */,
+				57F16A7BE88C4D2CC5C044ADC38B7E24 /* Pods-PaginatedTableView_Example */,
+				34537EAEC8ED62EEE2009AEB955708F3 /* Pods-PaginatedTableView_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9A841F768CC7705E98444C187DEB16CF /* Resources */ = {
+		39727110E0DC99552C0159A3A9082101 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9A52427BDAF28485E9B595EDD9FA91F /* Resources */ = {
+		87E629CAC73BB43DEE788E2EB42E3A8B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CBB5ED43B7B46BBB102BF412AAD2446A /* Resources */ = {
+		F0FC12F2C190C557F92A7D40291C3018 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -361,55 +367,55 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7DD9DE383F248CF04C5A66DCBFA99A6F /* Sources */ = {
+		0948095E6E416F94D862EFE607D31FA6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAA953EB63821A0DC7FAC8873092EA8F /* PaginatedTableView-dummy.m in Sources */,
-				AF7C78974DCB814FABFBB9C8C489F1A0 /* PaginatedTableView.swift in Sources */,
+				C23E6298F04BE8A039A4F3DC2B175DF3 /* PaginatedTableView-dummy.m in Sources */,
+				225895E8F09F14E5FF3BD3FCA1A86561 /* PaginatedTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6A5D436243015D20BEB89420B11DCF7 /* Sources */ = {
+		3A66AFD333C0EB69C177CADFDA9F9CA0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				388E626CC9133901172788EB55E1F147 /* Pods-PaginatedTableView_Tests-dummy.m in Sources */,
+				9E6DF54962E0E1911B248943D3B4D223 /* Pods-PaginatedTableView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A75CF99BA91DEBBCAF44446100C3D479 /* Sources */ = {
+		E930D0675F318D46FBF72A31C2CB308B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4DC79B55AF0F20D00A76131DF8B65FB /* Pods-PaginatedTableView_Example-dummy.m in Sources */,
+				7B45A74D047902EECBC037BF167510ED /* Pods-PaginatedTableView_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1E7B7CC1DC3694FEB8CB2E430C917ADC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PaginatedTableView;
-			target = C9C2402C5F72F2444EB7660F3314A74E /* PaginatedTableView */;
-			targetProxy = CA3CD74E542776791D3619430BCD1BAC /* PBXContainerItemProxy */;
-		};
-		3F0BBA67AA55D125FB875A077DF82B6F /* PBXTargetDependency */ = {
+		012CB286ECABE1BF897706115C8FD6A6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-PaginatedTableView_Example";
-			target = 84B2D834A4A3A07E07292FCECD4906CF /* Pods-PaginatedTableView_Example */;
-			targetProxy = F05C84DCFF66392B8EC669B02977F37B /* PBXContainerItemProxy */;
+			target = 57F16A7BE88C4D2CC5C044ADC38B7E24 /* Pods-PaginatedTableView_Example */;
+			targetProxy = D1B4DFEB04626A0E494109786CE82EB2 /* PBXContainerItemProxy */;
+		};
+		9A0387AC6BACBD7968D3094A7E3C4646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PaginatedTableView;
+			target = A489F4A86CC2E5F86E502CB35C2ECDCE /* PaginatedTableView */;
+			targetProxy = 38146C07EC4B48DAAB293ABE14346C9E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		033CF84C036C3B05F14C1FAF58CE3918 /* Release */ = {
+		0326BE56F8899EF31DFB81589296BCFE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F735D9C90016E63A3649A1C34DDF0722 /* Pods-PaginatedTableView_Example.release.xcconfig */;
+			baseConfigurationReference = F89C5181F18924283F4848523C344B22 /* Pods-PaginatedTableView_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -420,7 +426,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-PaginatedTableView_Example/Pods-PaginatedTableView_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PaginatedTableView_Example/Pods-PaginatedTableView_Example.modulemap";
@@ -432,18 +438,17 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		502A5EB0F6C603C3D590B1B3A533F316 /* Debug */ = {
+		38CAAB49A3FFC6A0FD638DAA8B96B26C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48956F6B5AF50553B5C3A8097B0E1EB9 /* Pods-PaginatedTableView_Tests.debug.xcconfig */;
+			baseConfigurationReference = 4FF39424E575E3F5533D1487B77FB766 /* Pods-PaginatedTableView_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -454,7 +459,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-PaginatedTableView_Tests/Pods-PaginatedTableView_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PaginatedTableView_Tests/Pods-PaginatedTableView_Tests.modulemap";
@@ -471,45 +476,12 @@
 			};
 			name = Debug;
 		};
-		97C0C03877196C31FFA2EFBBE6D08C82 /* Debug */ = {
+		6917BD47B1F8EE3CE30CD97428D8B0C1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56254D392E26AFB945048D52490019CF /* Pods-PaginatedTableView_Example.debug.xcconfig */;
+			baseConfigurationReference = E7ED8E37B7930405D15AD3326F9A4137 /* Pods-PaginatedTableView_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PaginatedTableView_Example/Pods-PaginatedTableView_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PaginatedTableView_Example/Pods-PaginatedTableView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A385A7979F7FFD01D87FDDF129F26741 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A467E47DEDB873D440F50D4F473AF80 /* Pods-PaginatedTableView_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -520,7 +492,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-PaginatedTableView_Tests/Pods-PaginatedTableView_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PaginatedTableView_Tests/Pods-PaginatedTableView_Tests.modulemap";
@@ -538,10 +510,11 @@
 			};
 			name = Release;
 		};
-		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -564,6 +537,103 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8D10DAF13F9212546A5F0A5B0DD9CD88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CD376DF17E6BBDF22798F1A78C7FA79 /* Pods-PaginatedTableView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PaginatedTableView_Example/Pods-PaginatedTableView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PaginatedTableView_Example/Pods-PaginatedTableView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -589,7 +659,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -597,16 +667,16 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		AC45D53B125F8C47D642F515896DE9C9 /* Release */ = {
+		DC5157F1BFCF510A13610951D9BF1E7B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 869D690A65FD95C85469E430832F4EFE /* PaginatedTableView.xcconfig */;
+			baseConfigurationReference = 588D6FCB7FCE7CF5D4AF87C20E087AFF /* PaginatedTableView.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -626,7 +696,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -634,11 +704,11 @@
 			};
 			name = Release;
 		};
-		B6B7129B01FEBCB79EC8ED392AE36DEF /* Debug */ = {
+		FE56738B3167595CACCF2E87547B75C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 869D690A65FD95C85469E430832F4EFE /* PaginatedTableView.xcconfig */;
+			baseConfigurationReference = 978F7FE9415441AF1A187EE4368AF1C7 /* PaginatedTableView.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -658,89 +728,30 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0194DE7FC2A24ED2296FE80B503D8953 /* Build configuration list for PBXNativeTarget "Pods-PaginatedTableView_Tests" */ = {
+		0FAE402B734C6DA4C05C699595B4FC04 /* Build configuration list for PBXNativeTarget "Pods-PaginatedTableView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				502A5EB0F6C603C3D590B1B3A533F316 /* Debug */,
-				A385A7979F7FFD01D87FDDF129F26741 /* Release */,
+				38CAAB49A3FFC6A0FD638DAA8B96B26C /* Debug */,
+				6917BD47B1F8EE3CE30CD97428D8B0C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		07B5AA3975CB819CF8B2BA5A4D9FBAE2 /* Build configuration list for PBXNativeTarget "PaginatedTableView" */ = {
+		26F068BC923E9245106C26617B682310 /* Build configuration list for PBXNativeTarget "PaginatedTableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B6B7129B01FEBCB79EC8ED392AE36DEF /* Debug */,
-				AC45D53B125F8C47D642F515896DE9C9 /* Release */,
+				FE56738B3167595CACCF2E87547B75C9 /* Debug */,
+				DC5157F1BFCF510A13610951D9BF1E7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -748,17 +759,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
-				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D4CDFF4EF15877174068EA154B0C5E29 /* Build configuration list for PBXNativeTarget "Pods-PaginatedTableView_Example" */ = {
+		97F35069465013F9F03F18972EF97C85 /* Build configuration list for PBXNativeTarget "Pods-PaginatedTableView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				97C0C03877196C31FFA2EFBBE6D08C82 /* Debug */,
-				033CF84C036C3B05F14C1FAF58CE3918 /* Release */,
+				0326BE56F8899EF31DFB81589296BCFE /* Debug */,
+				8D10DAF13F9212546A5F0A5B0DD9CD88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
