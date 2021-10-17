@@ -61,6 +61,8 @@ public class PaginatedTableView: UITableView {
         }
     }
     
+    public var loadCellBackgroundColor: UIColor?
+    
     public var pullToRefreshTitle: NSAttributedString? = nil {
         didSet {
             refreshControltableView.attributedTitle = pullToRefreshTitle
@@ -206,6 +208,11 @@ extension PaginatedTableView: UITableViewDataSource, UITableViewDelegate {
         if indexPath.section == sections - 1 {
             guard let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath) as? LoadMoreCell else {
                 fatalError("The dequeued cell is not an instance of LoadMoreCell.")
+            }
+            
+            if let color = self.loadCellBackgroundColor {
+                cell.contentView.backgroundColor = color
+                cell.backgroundColor = color
             }
             cell.activityIndicator.hidesWhenStopped = true
             if self.isLoading {
