@@ -17,7 +17,6 @@ import UIKit
     @objc optional func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath)
     @objc optional func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]?
     @objc optional func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool
-    @objc optional func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath)
 }
 
 @objc public protocol PaginatedTableViewDelegate: class {
@@ -295,11 +294,7 @@ extension PaginatedTableView: UITableViewDataSource, UITableViewDelegate {
     
     public func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
         return paginatedDataSource?.tableView(tableView, canEditRowAt: indexPath) ?? false
-    }
-    
-    public func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
-        paginatedDataSource?.tableView(tableView, commit: editingStyle, forRowAt: indexPath)
-    }
+    }    
 }
 
 //
