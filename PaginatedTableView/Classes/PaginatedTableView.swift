@@ -289,12 +289,12 @@ extension PaginatedTableView: UITableViewDataSource, UITableViewDelegate {
     }
     
     public func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
-        return paginatedDataSource?.tableView(tableView, editActionsForRowAt: indexPath) ?? nil
+        return paginatedDataSource?.tableView?(tableView, editActionsForRowAt: indexPath) ?? nil
     }
     
     public func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-        return paginatedDataSource?.tableView(tableView, canEditRowAt: indexPath) ?? false
-    }    
+        return paginatedDataSource?.tableView?(tableView, canEditRowAt: indexPath) ?? false
+    } 
 }
 
 //
