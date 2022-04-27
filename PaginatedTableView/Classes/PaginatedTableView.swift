@@ -15,6 +15,9 @@ import UIKit
     func numberOfSections(in tableView: UITableView) -> Int
     @objc optional func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCell.EditingStyle
     @objc optional func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath)
+    @objc optional func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]?
+    @objc optional func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool
+    @objc optional func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath)
 }
 
 @objc public protocol PaginatedTableViewDelegate: class {
@@ -284,6 +287,18 @@ extension PaginatedTableView: UITableViewDataSource, UITableViewDelegate {
     
     public func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCell.EditingStyle {
         return paginatedDataSource?.tableView?(tableView, editingStyleForRowAt: indexPath) ?? .none
+    }
+    
+    public func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
+        return paginatedDataSource?.tableView(tableView, editActionsForRowAt: indexPath) ?? nil
+    }
+    
+    public func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+        return paginatedDataSource?.tableView(tableView, canEditRowAt: indexPath) ?? false
+    }
+    
+    public func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        paginatedDataSource?.tableView(tableView, commit: editingStyle, forRowAt: indexPath)
     }
 }
 
